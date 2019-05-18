@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       LCTRL,     A,     S,     D,     F,     G,                      H,     J,     K,     L,  SCLN,  QUOT,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,   ENT,\
+       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  BSPC,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                  GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
                               //`--------------------'  `--------------------'
@@ -80,23 +80,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        TAB,    1,     2,      3,     4,     5,                  XXXXX,  BSPC,   ENT, XXXXX, XXXXX, XXXXX,\
+        GRV,    1,     2,      3,     4,     5,                      6,     7,     8,     9,     0, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       LCTRL,    6,     7,      8,     9,     0,                   LEFT,  DOWN,    UP, RIGHT, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX,XXXXX,_MUTE,_VOLDOWN,_VOLUP,                   LFIT,  CFIT,  RFIT, XXXXX, XXXXX, XXXXX,\
+       LSFT, XXXXX,XXXXX,_MUTE,_VOLDOWN,_VOLUP,                   LFIT,  CFIT,  RFIT, XXXXX, XXXXX,  BSPC,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                 GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
+                                  GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
                               //`--------------------'  `--------------------'
   ),
 
   [_RAISE] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-       TILD,  EXLM,    AT,  HASH,   DLR,  PERC,                   CIRC,  AMPR,  ASTR,  LPRN,  RPRN,  MINS,\
+        GRV,  EXLM,    AT,  HASH,   DLR,  PERC,                   CIRC,  AMPR,  ASTR,  LPRN,  RPRN,  MINS,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      LCTRL,   ESC,CTLRTB,CTLLTB,  BSPC, XXXXX,                   PLUS,   EQL,  LCBR,  RCBR,  SCLN,  QUOT,\
+      LCTRL, XXXXX,CTLRTB,CTLLTB, XXXXX, XXXXX,                   PLUS,   EQL,  LCBR,  RCBR,  SCLN,  QUOT,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  RSFT,\
+       LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   UNDS,  PIPE,  LBRC,  RBRC,  BSLS,  BSPC,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                  GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
                               //`--------------------'  `--------------------'
