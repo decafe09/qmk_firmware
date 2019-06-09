@@ -80,11 +80,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        GRV,    1,     2,      3,     4,     5,                      6,     7,     8,     9,     0, XXXXX,\
+        GRV,    1,     2,      3,     4,     5,                      6,     7,     8,     9,     0,  MINS,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       LCTRL,    6,     7,      8,     9,     0,                   LEFT,  DOWN,    UP, RIGHT, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX,XXXXX,_MUTE,_VOLDOWN,_VOLUP,                   LFIT,  CFIT,  RFIT, XXXXX, XXXXX,  BSPC,\
+       LSFT, XXXXX, XXXXX,  LFIT,  CFIT,  RFIT,                  XXXXX, XXXXX,  COMM,   DOT,  SLSH,  BSPC,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                   GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
                               //`--------------------'  `--------------------'
@@ -96,7 +96,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
       LCTRL, XXXXX,CTLRTB,CTLLTB,  MINS,   EQL,                   LPRN,  RPRN,  LCBR,  RCBR,  COLN,   DQT,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX, XXXXX, XXXXX,  UNDS,  PLUS,                     LT,    GT,  LBRC,  RBRC,  PIPE,  BSPC,\
+       LSFT,_MUTE,_VOLDOWN,_VOLUP, UNDS,  PLUS,                     LT,    GT,  LBRC,  RBRC,  PIPE,  BSPC,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                  GUIESC, RAIEI,   SPC,      ENT, LOWKA,ALTBSP \
                               //`--------------------'  `--------------------'
